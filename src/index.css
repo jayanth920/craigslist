@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img{
+  height: 200px;
+  width: 200px;
+}
+.resultBox{
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+}
+.allBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.style{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+}
+.NavContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+
